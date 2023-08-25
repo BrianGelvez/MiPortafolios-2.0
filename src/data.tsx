@@ -63,8 +63,8 @@ const cards = [
     image: [portafolios2],
     tecno: [react, tailwind, css],
     descrip: "Practice with React, State Management, Filters and Dark Mode.",
-    url: "https://books-eight-phi.vercel.app/",
-    urlGithub: "https://github.com/MINOTAURO18/Books",
+    url: "#",
+    urlGithub: "https://github.com/BrianGelvez/MiPortafolios-2.0",
   },
 
   {
@@ -74,7 +74,7 @@ const cards = [
     tecno: [react, tailwind, css],
     descrip: "practice with the rick and morty api",
     url: "#",
-    urlGithub: "https://github.com/BrianGelvez/MiPortafolios-2.0",
+    urlGithub: "https://github.com/BrianGelvez/rickandmorty",
   },
 ];
 
