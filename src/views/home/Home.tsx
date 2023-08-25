@@ -27,7 +27,6 @@ const Home: React.FC = () => {
         <p>
           Programador con enfoque en desarrollo de aplicaciones web, tengo habilidades tanto en desarrollo backend como frontend.
         </p>
-        <br />
         <span className="text-primary-color">From:BrianGelvez</span>
         <div className={`flex gap-3 ${isResponsive ? 'justify-center items-center' : ''}`}>
           <span className="flex justify-center items-center gap-1">

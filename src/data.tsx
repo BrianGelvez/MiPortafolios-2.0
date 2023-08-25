@@ -74,7 +74,7 @@ const cards = [
     tecno: [react, tailwind, css],
     descrip: "practice with the rick and morty api",
     url: "#",
-    urlGithub: "https://github.com/BrianGelvez/rickandmorty",
+    urlGithub: "https://github.com/BrianGelvez/MiPortafolios-2.0",
   },
 ];
 
