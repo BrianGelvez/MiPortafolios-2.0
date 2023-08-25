@@ -33,7 +33,7 @@ const Home: React.FC = () => {
           </span>
         </div>
       </article>
-      <article className={`${styles.jamy}`}>
+      <article className={`${styles.brian}`}>
         <h2 className="font-bold text-center z-20">Brian Gelvez</h2>
         <Buttons url="https://mail.google.com/mail/u/1/#inbox?compose=GTvVlcSHxjQCvzsDSFMjbMznTjRBjbpJZFZmltSXxFDNvCBJbMdXfxNMXkCrWbPZRNnmcRZmdVmJM" title="GMAIL" />
         <Buttons url="https://drive.google.com/file/d/1aAZRjTjyI2OqX2nNjAyKxNzzX7MZBLne/view" title="CV"/>
