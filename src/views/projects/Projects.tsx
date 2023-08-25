@@ -31,7 +31,7 @@ const Projects = () => {
                   <a target="_blank" href={card.urlGithub}><img src={github} alt="" /></a>
                   <a target="_blank" href={card.url}><img src={url} alt="" /></a>
                   {
-                   card.youtube === true ? <a target="_blank" href={card.youtube === true ? card.youtubeUrl : undefined}><img src={card.youtube === true ? youtube : undefined} alt="" /></a> : null
+                   card.youtube === true ? <a target="_blank" href={card === true ? card : undefined}><img src={card === true ? youtube : undefined} alt="" /></a> : null
                   }
                 </div>
               </span> 
