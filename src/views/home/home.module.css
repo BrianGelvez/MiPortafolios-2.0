@@ -1,7 +1,7 @@
 .home{
     width: 100%;
     min-height: 100vh;
-    padding: 5vh 8%;
+    padding: 3vh 1%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,7 +19,7 @@
 .home .brian{
     width: auto;
     height: 400px;
-    margin-top: 12vh;
+    margin-top: 18vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -48,6 +48,6 @@
     }
 
     .home .brian {
-        margin-top: 0%;
+        margin-top: 0;
     }
 }
