@@ -7,6 +7,8 @@ import youtube from '../../assets/youtube.svg'
 
 
 
+
+
 const Projects = () => { 
   return (
     <section className={styles.projects}> 
@@ -40,5 +42,6 @@ const Projects = () => {
     </section>
   );
 };
+
 
 export default Projects;
