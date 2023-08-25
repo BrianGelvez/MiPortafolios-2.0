@@ -11,26 +11,28 @@ const Home: React.FC = () => {
   return (
     <section className={styles.home}>
       <article className={`${styles.full}`}>
+        <div className="titulo">
         <h2 className="font-bold">sofwore Developer</h2>
         <p>
         Programador con enfoque en desarrollo de aplicaciones web, tengo habilidades tanto en desarrollo backend como frontend.
         </p>
         <span className="text-primary-color">From:BrianGelvez</span>
-        <div className="flex gap-3">
+        <div className="flex justify-center items-center gap-5" >
           <span className="flex justify-center items-center gap-1">
-            <img className="w-5" src={message} alt="" />
+            <img className="w-6" src={message} alt="" />
             <h5>25</h5>
           </span>
 
           <span className="flex justify-center items-center gap-1">
-            <img className="w-5" src={share} alt="" />
+            <img className="w-6" src={share} alt="" />
             <h5>83</h5>
           </span>
 
           <span className="flex justify-center items-center gap-1">
-            <img className="w-5" src={pin} alt="" />
+            <img className="w-6" src={pin} alt="" />
             <h5>45</h5>
           </span>
+        </div>
         </div>
       </article>
       <article className={`${styles.brian}`}>

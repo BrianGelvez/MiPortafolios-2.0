@@ -40,21 +40,14 @@
 
 
 @media (max-width: 1000px) {
-    .home .full,
-    .home .brian {
-        width: auto; /* Ajustar el ancho al contenido */
-        height: auto; /* Ajustar la altura al contenido */
-        margin-top: 0; /* Eliminar margen superior */
-        display: flex;
-        flex-direction: column;
-        align-items: center; /* Centrar elementos horizontalmente */
+    .home, .home .full, .full, .titulo {
+        justify-content: center; /* Centrar verticalmente */
+        align-items: center; /* Centrar horizontalmente */
+        display: inline-block;
         text-align: center; /* Centrar el texto horizontalmente */
-        gap: 15px;
     }
 
-    .home .full p {
-        max-width: none; /* Eliminar la limitación de ancho máximo */
+    .home .brian {
+        margin-top: 0;
     }
 }
-
-
