@@ -1,0 +1,56 @@
+.home{
+    width: 100%;
+    min-height: 100vh;
+    padding: 5vh 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home .full{
+    width: 50%;
+    margin-top: 12vh;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.home .jamy{
+    width: auto;
+    height: 400px;
+    margin-top: 12vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.home  h2{
+    color: rgb(0, 145, 255);
+    font-size: 44px;
+}
+
+.home .full p{
+    max-width: 420px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+
+@media (width < 1000px) {
+    .home .full{
+        display: none;
+    }
+
+    .home{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home .jamy{
+        margin-top: 0;
+    }
+}
+
