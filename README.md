@@ -2,7 +2,7 @@
 
 ## Descripción del proyecto 📝
 
-**miPortafolios-2.0** es una página web personalizada desarrollada utilizando tecnologías como **React**, **Tailwind CSS**, y **React Router**. Este proyecto sirve como mi portafolio personal, donde presento mis proyectos, habilidades y experiencia en el desarrollo web.
+**miPortafolios-2.0** es una página web personalizada desarrollada utilizando tecnologías como **TypeScript**, **React** y **Tailwind CSS**. Este proyecto sirve como mi portafolio personal, donde presento mis proyectos, habilidades y experiencia en el desarrollo web.
 
 La página es totalmente responsiva, lo que garantiza una experiencia de usuario óptima en dispositivos móviles, tabletas y computadoras de escritorio. 📱💻
 
@@ -23,7 +23,7 @@ Sigue estos pasos para clonar y ejecutar el proyecto en tu máquina:
 2. Navega al directorio del proyecto: `cd miPortafolios-2.0`
 3. Instala las dependencias: `npm install`
 4. Inicia el proyecto en modo desarrollo: `npm run dev`
-5. Abre tu navegador y visita `http://localhost:3000` para ver el portafolio en funcionamiento. 🚀👀
+5. Abre tu navegador y visita `http://localhost:5173` para ver el portafolio en funcionamiento. 🚀👀
 
 ## Tecnologías utilizadas 🛠️
 
@@ -38,7 +38,7 @@ Sigue estos pasos para clonar y ejecutar el proyecto en tu máquina:
 
 Si tienes alguna pregunta o comentario, no dudes en ponerte en contacto conmigo:
 
-- Email: [tucorreo@example.com](mailto:tucorreo@example.com)
-- GitHub: [TuUsuarioGitHub](https://github.com/TuUsuarioGitHub)
+- Email: briannn97@gmail.com
+- GitHub: https://github.com/BrianGelvez
 
 ¡Gracias por visitar miPortafolios-2.0! Espero que disfrutes explorando mis proyectos y habilidades en el desarrollo web. 😊💼
