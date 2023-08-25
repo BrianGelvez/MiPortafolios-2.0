@@ -11,13 +11,11 @@ const Home: React.FC = () => {
   return (
     <section className={styles.home}>
       <article className={`${styles.full}`}>
-        <h2 className="font-bold">Full Stack Developer</h2>
+        <h2 className="font-bold">sofwore Developer</h2>
         <p>
-          Programmer with focus on web application development, I have skills in
-          both Front-end and Back-end. however my specialty and main focus is in
-          Front-end.
+        Programador con enfoque en desarrollo de aplicaciones web, tengo habilidades tanto en desarrollo backend como frontend.
         </p>
-        <span className="text-primary-color">From:Jamy_10011</span>
+        <span className="text-primary-color">From:BrianGelvez</span>
         <div className="flex gap-3">
           <span className="flex justify-center items-center gap-1">
             <img className="w-5" src={message} alt="" />
@@ -36,9 +34,9 @@ const Home: React.FC = () => {
         </div>
       </article>
       <article className={`${styles.jamy}`}>
-        <h2 className="font-bold text-center z-20">Alexander Muñoz</h2>
+        <h2 className="font-bold text-center z-20">Brian Gelvez</h2>
         <Buttons url="https://mail.google.com/mail/u/1/#inbox?compose=GTvVlcSHxjQCvzsDSFMjbMznTjRBjbpJZFZmltSXxFDNvCBJbMdXfxNMXkCrWbPZRNnmcRZmdVmJM" title="GMAIL" />
-        <Buttons url="https://drive.google.com/file/d/1fsLDnhIrlZqY1i3r2WeER9PSeKB9sj5X/view?usp=sharing" title="CV"/>
+        <Buttons url="https://drive.google.com/file/d/1aAZRjTjyI2OqX2nNjAyKxNzzX7MZBLne/view" title="CV"/>
       </article>
       <AnimacionOne/>
     </section>

@@ -4,6 +4,7 @@ import data from "../../data";
 import github from '../../assets/github.svg'
 import url from '../../assets/url.svg'
 import youtube from '../../assets/youtube.svg'
+import AnimationTwo from "../../components/animations/animationTwo/AnimationTwo";
 
 
 
@@ -14,8 +15,9 @@ const Projects = () => {
         <h2 className="text-2xl text-primary-color font-bold">Projects</h2>
         <img className="w-7" src={arrow} alt="flecha" />
       </span>
-
       <article className={`${styles.cards}  `}>
+        <div>
+        </div>
         {data.map((card) => {
           return (
             <div className={`${styles.card}`} key={card.id}>
@@ -28,7 +30,6 @@ const Projects = () => {
                   <a target="_blank" href={card.urlGithub}><img src={github} alt="" /></a>
                   <a target="_blank" href={card.url}><img src={url} alt="" /></a>
                   {
-
                    card.youtube === true ? <a target="_blank" href={card.youtube === true ? card.youtubeUrl : undefined}><img src={card.youtube === true ? youtube : undefined} alt="" /></a> : null
                   }
                 </div>

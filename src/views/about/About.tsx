@@ -4,7 +4,7 @@ import arrow from "../../assets/arrow.svg";
 import pin from "../../assets/pin.svg";
 import message from "../../assets/message.svg";
 import share from "../../assets/share.svg";
-import alex from "../../assets/alex.webp";
+import brian from "../../assets/brian.jpeg";
 import AnimationTwo from "../../components/animations/animationTwo/AnimationTwo";
 import Footer from "../../components/footer/Footer";
 
@@ -12,7 +12,7 @@ interface AboutProps {
   lightMode: boolean;
 }
 
-const About: React.FC<AboutProps> = ({lightMode}) => {
+const About: React.FC<AboutProps> = ({ lightMode }) => {
   return (
     <section className={`${styles.about}`}>
       <span className="flex items-center gap-1">
@@ -24,16 +24,13 @@ const About: React.FC<AboutProps> = ({lightMode}) => {
           <img
             className={`${styles.img} z-10 m-auto hover:animate-wiggle-more animate-once
 `}
-            src={alex}
+            src={brian}
             alt=""
           />
           <p>
-            Hello, My name is John Alexander Muñoz Yepez. I love technology and
-            sports, the latter is where I acquired my discipline and
-            perseverance, as I believe that sports are the most effective way to
-            develop these qualities.
+           Hola, Mi nombre es Brian Leonel Gelvez, soy amante de la tecnología, los deportes y la música. Soy un ex militar Argentino, fui soldado durante 4 años, en estos años de mi vida he aprendido el valor del esfuerzo duro, la disciplina y la perseverancia. Estoy preparado para nuevos desafíos en el mundo IT.
           </p>
-          <span className="text-primary-color">From:Jamy_10011</span>
+          <span className="text-primary-color">From:BrianGelvez</span>
           <div className="flex gap-3">
             <span className="flex justify-center items-center gap-1">
               <img className="w-5" src={message} alt="" />
@@ -53,27 +50,17 @@ const About: React.FC<AboutProps> = ({lightMode}) => {
         </article>
         <article className={styles.cards}>
           <div className={`${styles.card} ${styles.blue}`}>
-            <p className={styles.tip}>Udemy</p>
-            <p className={styles.secondText}>React, Node.js, Javascript</p>
+            <p className={styles.tip}>academia: Soy Henry</p>
+            <p className={styles.secondText}>JavaScript, React, Node.JS, Express, SQL</p>
           </div>
 
           <div className={`${styles.card} ${styles.blue}`}>
-            <p className={styles.tip}>Universidad Of Antioquia</p>
-            <p className={styles.secondText}>in progress</p>
+            <p className={styles.tip}>Autodidacta</p>
+            <p className={styles.secondText}>HTML, CSS, Tailwind, TypeScript</p>
           </div>
-
-          <div className={`${styles.card} ${styles.blue}`}>
-            <p className={styles.tip}>Frecodecamp</p>
-            <p className={styles.secondText}>HTML, CSS, SASS</p>
-          </div>
-
-          <div className={`${styles.card} ${styles.blue}`}>
-            <p className={styles.tip}>OpenBootcamp</p>
-            <p className={styles.secondText}>Python, SQL</p>
-          </div> 
         </article>
       </div>
-      <Footer  lightMode={lightMode} />
+      <Footer lightMode={lightMode} />
       <AnimationTwo lightMode={lightMode} />
     </section>
   );

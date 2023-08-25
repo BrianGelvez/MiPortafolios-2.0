@@ -3,8 +3,9 @@ import typescrip from "../../assets/typ.svg";
 import html from "../../assets/html.svg";
 import css from "../../assets/css.svg";
 import tailwin from "../../assets/tailwind.svg";
-import sass from "../../assets/sass.svg";
-import python from "../../assets/python.svg";
+// import sass from "../../assets/sass.svg";
+// import python from "../../assets/python.svg";
+import postgresql from "../../assets/postgresql.svg";
 import node from "../../assets/node.svg";
 import mongo from "../../assets/mongo.svg";
 import react from "../../assets/react.svg";
@@ -31,10 +32,10 @@ const Tecnologies = [
     name: "Typescript",
   },
 
-  {
-    tecno: sass,
-    name: "SASS",
-  },
+  // {
+  //   tecno: sass,
+  //   name: "SASS",
+  // },
 
   {
     tecno: tailwin,
@@ -51,19 +52,18 @@ const Tecnologies = [
     name: "Redux",
   },
 
-  {
-    tecno: python,
-    name: "Python",
-  },
+  // {
+  //   tecno: python,
+  //   name: "Python",
+  // },
 
   {
     tecno: node,
     name: "Node",
   },
-
   {
-    tecno: mongo,
-    name: "MongoDB",
+    tecno: postgresql,
+    name: "PostgreSQL",
   },
 ];
 
