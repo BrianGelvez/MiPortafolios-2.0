@@ -5,8 +5,6 @@ import github from '../../assets/github.svg'
 import url from '../../assets/url.svg'
 
 
-
-
 const Projects = () => { 
   return (
     <section className={styles.projects}> 
@@ -28,7 +26,6 @@ const Projects = () => {
                 <div className={styles.links}>
                   <a target="_blank" href={card.urlGithub}><img src={github} alt="" /></a>
                   <a target="_blank" href={card.url}><img src={url} alt="" /></a>
-
                 </div>
               </span> 
             </div>
