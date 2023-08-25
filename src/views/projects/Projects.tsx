@@ -4,7 +4,6 @@ import data from "../../data";
 import github from '../../assets/github.svg'
 import url from '../../assets/url.svg'
 import youtube from '../../assets/youtube.svg'
-import AnimationTwo from "../../components/animations/animationTwo/AnimationTwo";
 
 
 
