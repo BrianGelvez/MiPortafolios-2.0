@@ -41,7 +41,7 @@
 
 @media (width < 1000px) {
     .home .full{
-        display: none;
+        display: block;
     }
 
     .home{
