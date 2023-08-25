@@ -3,8 +3,6 @@ import arrow from "../../assets/arrow.svg";
 import data from "../../data";
 import github from '../../assets/github.svg'
 import url from '../../assets/url.svg'
-import youtube from '../../assets/youtube.svg'
-
 
 
 
@@ -30,9 +28,7 @@ const Projects = () => {
                 <div className={styles.links}>
                   <a target="_blank" href={card.urlGithub}><img src={github} alt="" /></a>
                   <a target="_blank" href={card.url}><img src={url} alt="" /></a>
-                  {
-                   card === true ? <a target="_blank" href={card === true ? card : undefined}><img src={card === true ? youtube : undefined} alt="" /></a> : null
-                  }
+
                 </div>
               </span> 
             </div>
@@ -42,6 +38,5 @@ const Projects = () => {
     </section>
   );
 };
-
 
 export default Projects;
