@@ -85,9 +85,9 @@ const Services = () => {
           </div>
         </article>
         <article className={`${styles.cards}`}>
-          <div className={`${styles.card} ${styles.blue}`}> <img className="w-10" src={code} alt="" /> <span>Development of specific solutions for your modern web applications.</span></div>
-          <div className={`${styles.card} ${styles.blue}`}> <img className="w-10" src={web} alt="" /> <span>Tailored technological projects expertly adapted to your specific needs.</span></div>
-          <div className={`${styles.card} ${styles.blue}`}> <img className="w-10" src={desing} alt="" /> <span>Ensuring responsive design for seamless experiences across all devices.</span></div>
+          <div className={`${styles.card} ${styles.blue}`}> <img className="w-10" src={code} alt="" /> <span>Desarrollo de soluciones específicas para sus modernas aplicaciones web.</span></div>
+          <div className={`${styles.card} ${styles.blue}`}> <img className="w-10" src={web} alt="" /> <span>Proyectos tecnológicos a medida adaptados por expertos a sus necesidades específicas</span></div>
+          <div className={`${styles.card} ${styles.blue}`}> <img className="w-10" src={desing} alt="" /> <span>Garantizar un diseño adaptable para disfrutar de una experiencia fluida en todos los dispositivos.</span></div>
         </article>
       </div>
     </section>
