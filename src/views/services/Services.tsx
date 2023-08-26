@@ -28,13 +28,13 @@ const Tecnologies = [
   },
 
   {
-    tecno: typescrip,
-    name: "Typescript",
+    tecno: javascript,
+    name: "JavaScript",
   },
 
   {
-    tecno: javascript,
-    name: "JavaScript",
+    tecno: typescrip,
+    name: "Typescript",
   },
 
   {
