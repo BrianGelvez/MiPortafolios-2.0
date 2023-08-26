@@ -13,7 +13,7 @@ interface NavProps {
   setLightMode: React.Dispatch<React.SetStateAction<boolean>>;
   scrollToSection: (sectionId: string) => void;
 }
-const Nav: React.FC<NavProps> = ({lightMode, setLightMode, scrollToSection}) => {
+const Nav: React.FC<NavProps> = ({ lightMode, setLightMode, scrollToSection }) => {
 
   const light = () => {
     lightMode === false ? setLightMode(true) : setLightMode(false)
@@ -22,14 +22,23 @@ const Nav: React.FC<NavProps> = ({lightMode, setLightMode, scrollToSection}) => 
     <header className={`${styles.menu} ${lightMode === true ? styles.white : styles.dark} `}>
       <nav className={styles.nav}>
         <h1 className={styles.logo}>BG</h1>
-        <div className={ `${styles.nave} flex gap-8 font-bold text-lg` }>
+        <div >
+          <p className={`${styles.mobile}`}>Visitas 👇</p>
+          <a href="https://www.hitwebcounter.com" className={`${styles.mobile} `}>
+            <img src="https://hitwebcounter.com/counter/counter.php?page=8885080&style=0010&nbdigits=4&type=page&initCount=0" title="Counter Widget" className="w-20" alt=""/></a>
+        </div>
+        <div className="contador" >
+          <a href="https://www.hitwebcounter.com">
+            <img src="https://hitwebcounter.com/counter/counter.php?page=8885080&style=0010&nbdigits=4&type=page&initCount=0" title="Counter Widget" className="w-20" alt=""/></a>
+        </div>
+        <div className={`${styles.nave} flex gap-8 font-bold text-lg`}>
           <a onClick={() => scrollToSection('home')}>
             <span>H</span>ome
           </a>
-          <a  onClick={() => scrollToSection('projects')}>
+          <a onClick={() => scrollToSection('projects')}>
             <span>P</span>rojects
           </a>
-          <a  onClick={() => scrollToSection('services')}>
+          <a onClick={() => scrollToSection('services')}>
             <span>S</span>ervices
           </a>
           <a onClick={() => scrollToSection('about')}>
@@ -40,7 +49,8 @@ const Nav: React.FC<NavProps> = ({lightMode, setLightMode, scrollToSection}) => 
           <a onClick={() => scrollToSection('projects')} className={`${styles.mobile}`}><img className="w-6" src={projects} alt="" /></a>
           <a onClick={() => scrollToSection('services')} className={`${styles.mobile}`}><img className="w-6" src={services} alt="" /></a>
           <a onClick={() => scrollToSection('about')} className={`${styles.mobile}`}><img className="w-6" src={about} alt="" /></a>
-            <img onClick={light} className="w-7" src={lightMode === false ? sun : moon} alt="sun" />
+          <img onClick={light} className="w-7" src={lightMode === false ? sun : moon} alt="sun" />
+          
         </div>
       </nav>
     </header>
