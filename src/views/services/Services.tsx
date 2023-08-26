@@ -12,6 +12,7 @@ import code from "../../assets/code.svg";
 import desing from "../../assets/desing.svg";
 import web from "../../assets/web.svg";
 import gitflow from "../../assets/gitflow.png"
+import javascript from "../../assets/javascript.png"
 
 
 
@@ -31,10 +32,10 @@ const Tecnologies = [
     name: "Typescript",
   },
 
-  // {
-  //   tecno: sass,
-  //   name: "SASS",
-  // },
+  {
+    tecno: javascript,
+    name: "JavaScript",
+  },
 
   {
     tecno: tailwin,
