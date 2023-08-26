@@ -50,7 +50,7 @@ const About: React.FC<AboutProps> = ({ lightMode }) => {
         </article>
         <article className={styles.cards}>
           <div className={`${styles.card} ${styles.blue}`}>
-            <p className={styles.tip}>academia: Soy Henry</p>
+            <p className={styles.tip}>Academia: Soy Henry</p>
             <p className={styles.secondText}>JavaScript, React, Node.JS, Express, SQL</p>
           </div>
 
