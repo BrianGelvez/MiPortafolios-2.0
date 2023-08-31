@@ -7,6 +7,7 @@ import postgresql from "../../assets/postgresql.svg";
 import node from "../../assets/node.svg";
 import react from "../../assets/react.svg";
 import redux from "../../assets/redux.svg";
+import mongo from "../../assets/mongo.svg"
 import arrow from "../../assets/arrow.svg";
 import code from "../../assets/code.svg";
 import desing from "../../assets/desing.svg";
@@ -60,6 +61,10 @@ const Tecnologies = [
   {
     tecno: node,
     name: "Node",
+  },
+  {
+    tecno: mongo,
+    name: "MongoBD",
   },
   {
     tecno: postgresql,
