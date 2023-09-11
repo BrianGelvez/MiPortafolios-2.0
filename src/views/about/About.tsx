@@ -22,8 +22,7 @@ const About: React.FC<AboutProps> = ({ lightMode }) => {
       <div className={styles.aboutMe}>
         <article className={styles.me}>
           <img
-            className={`${styles.img} z-10 m-auto hover:animate-wiggle-more animate-once
-`}
+            className={`${styles.img} z-10 m-auto`}
             src={brian}
             alt=""
           />
