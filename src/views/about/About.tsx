@@ -22,8 +22,7 @@ const About: React.FC<AboutProps> = ({ lightMode }) => {
       <div className={styles.aboutMe}>
         <article className={styles.me}>
           <img
-            className={`${styles.img} z-10 m-auto hover:animate-wiggle-more animate-once
-`}
+            className={`${styles.img} z-10 m-auto`}
             src={brian}
             alt=""
           />
@@ -50,7 +49,7 @@ const About: React.FC<AboutProps> = ({ lightMode }) => {
         </article>
         <article className={styles.cards}>
           <div className={`${styles.card} ${styles.blue}`}>
-            <p className={styles.tip}>academia: Soy Henry</p>
+            <p className={styles.tip}>Academia: Soy Henry</p>
             <p className={styles.secondText}>JavaScript, React, Node.JS, Express, SQL</p>
           </div>
 

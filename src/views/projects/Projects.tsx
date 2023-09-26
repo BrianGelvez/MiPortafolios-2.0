@@ -4,6 +4,7 @@ import data from "../../data";
 import github from '../../assets/github.svg'
 import url from '../../assets/url.svg'
 
+
 const Projects = () => { 
   return (
     <section className={styles.projects}> 
@@ -36,4 +37,3 @@ const Projects = () => {
 };
 
 export default Projects;
-

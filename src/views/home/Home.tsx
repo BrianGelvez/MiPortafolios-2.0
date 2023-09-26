@@ -24,10 +24,11 @@ const Home: React.FC = () => {
     <section className={styles.home}>
       <article className={`${styles.full}`}>
         <h2 className="font-bold">sofwore Developer</h2>
-        <p>
-          Programador con enfoque en desarrollo de aplicaciones web, tengo habilidades tanto en desarrollo backend como frontend.
+        <p >
+          Programador con enfoque en desarrollo de software Full-Stack.
         </p>
-        <span className="text-primary-color">From:BrianGelvez</span>
+        <br />
+        <span className="text-primary-color ">From:BrianGelvez</span>
         <div className={`flex gap-3 ${isResponsive ? 'justify-center items-center' : ''}`}>
           <span className="flex justify-center items-center gap-1">
             <img className="w-5" src={message} alt="" />
@@ -48,7 +49,7 @@ const Home: React.FC = () => {
       <article className={`${styles.brian}`}>
         <h2 className="font-bold text-center z-20">Brian Gelvez</h2>
         <Buttons url="https://mail.google.com/mail/u/1/#inbox?compose=GTvVlcSHxjQCvzsDSFMjbMznTjRBjbpJZFZmltSXxFDNvCBJbMdXfxNMXkCrWbPZRNnmcRZmdVmJM" title="GMAIL" />
-        <Buttons url="https://drive.google.com/file/d/1SDD0mvhhzZyoaGE-JzN0qe7ubJTOB9rG/view?usp=drive_link" title="CV"/>
+        <Buttons url="https://drive.google.com/file/d/1aAZRjTjyI2OqX2nNjAyKxNzzX7MZBLne/view" title="CV"/>
       </article>
       <AnimacionOne/>
     </section>
