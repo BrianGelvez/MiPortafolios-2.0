@@ -23,5 +23,4 @@ const Footer: React.FC<FooterProps> = ({ lightMode }) => {
   );
 };
 
-
 export default Footer;
