@@ -1,7 +1,7 @@
 .home{
     width: 100%;
     min-height: 100vh;
-    padding: 5vh 8%;
+    padding: 3vh 1%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,10 +16,10 @@
     gap: 10px;
 }
 
-.home .jamy{
+.home .brian{
     width: auto;
     height: 400px;
-    margin-top: 12vh;
+    margin-top: 18vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -39,18 +39,15 @@
 
 
 
-@media (width < 1000px) {
-    .home .full{
-        display: none;
+@media (max-width: 1000px) {
+    .home, .home .full, .full, .titulo {
+        justify-content: center; /* Centrar verticalmente */
+        align-items: center; /* Centrar horizontalmente */
+        display: inline-block;
+        text-align: center; /* Centrar el texto horizontalmente */
     }
 
-    .home{
-        justify-content: center;
-        align-items: center;
-    }
-
-    .home .jamy{
+    .home .brian {
         margin-top: 0;
     }
 }
-

@@ -3,17 +3,16 @@ import typescrip from "../../assets/typ.svg";
 import html from "../../assets/html.svg";
 import css from "../../assets/css.svg";
 import tailwin from "../../assets/tailwind.svg";
-// import sass from "../../assets/sass.svg";
-// import python from "../../assets/python.svg";
 import postgresql from "../../assets/postgresql.svg";
 import node from "../../assets/node.svg";
-import mongo from "../../assets/mongo.svg";
 import react from "../../assets/react.svg";
 import redux from "../../assets/redux.svg";
 import arrow from "../../assets/arrow.svg";
 import code from "../../assets/code.svg";
 import desing from "../../assets/desing.svg";
 import web from "../../assets/web.svg";
+import gitflow from "../../assets/gitflow.png"
+
 
 
 const Tecnologies = [
@@ -52,10 +51,10 @@ const Tecnologies = [
     name: "Redux",
   },
 
-  // {
-  //   tecno: python,
-  //   name: "Python",
-  // },
+    {
+    tecno: gitflow,
+    name: "GitFlow",
+  },
 
   {
     tecno: node,

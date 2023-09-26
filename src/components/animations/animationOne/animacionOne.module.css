@@ -198,5 +198,6 @@
 @media (width < 1000px) {
   .Animacion{
     top: 60vh;
+    margin-top: 40%;
   }
 }

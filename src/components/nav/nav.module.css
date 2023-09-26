@@ -12,6 +12,7 @@
   display: none;
 }
 
+
 .white {
   background-color: rgb(211, 222, 235);
   color: black;
@@ -56,8 +57,10 @@
     display: none;
   }
 
-  .menu .mobile{
+
+  .menu .mobile {
     display: flex;
+    
   }
 
   .menu .nav .logo{
