@@ -27,7 +27,8 @@ const About: React.FC<AboutProps> = ({ lightMode }) => {
             alt=""
           />
           <p>
-           Hola, Mi nombre es Brian Leonel Gelvez, soy amante de la tecnología, los deportes y la música. Soy un ex militar Argentino, fui soldado durante 4 años, en estos años de mi vida he aprendido el valor del esfuerzo duro, la disciplina y la perseverancia. Estoy preparado para nuevos desafíos en el mundo IT.
+          Hola, mi nombre es Brian Leonel Gelvez, soy amante de la tecnología, los deportes y la musica. Soy ex militar Argentino, fui soldado durante 4 años, los cuales 2 años fui reconocido como mejor soldado de la Compañia. Preste servicio en la Compañia de comandos 602.
+Durante los últimos dos años, me he dedicado a adquirir y configurar máquinas virtuales (VM) y servidores privados virtuales (VPS) para clientes. Mi proceso de configuración incluye la implementación de scripts personalizados y la adaptación de los puertos de conexion según las necesidades específicas de cada cliente.
           </p>
           <span className="text-primary-color">From:BrianGelvez</span>
           <div className="flex gap-3">

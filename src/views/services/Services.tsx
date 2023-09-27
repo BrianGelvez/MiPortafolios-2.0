@@ -13,6 +13,7 @@ import code from "../../assets/code.svg";
 import desing from "../../assets/desing.svg";
 import web from "../../assets/web.svg";
 import gitflow from "../../assets/gitflow.png"
+import maquinavirtual from "../../assets/maquinavirtual.png"
 import javascript from "../../assets/javascript.png"
 
 
@@ -52,7 +53,10 @@ const Tecnologies = [
     tecno: redux,
     name: "Redux",
   },
-
+  {
+    tecno: maquinavirtual,
+    name: "MV/VPS"
+  },
     {
     tecno: gitflow,
     name: "GitFlow",
