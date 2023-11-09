@@ -3,11 +3,12 @@ import typescrip from "../../assets/typ.svg";
 import html from "../../assets/html.svg";
 import css from "../../assets/css.svg";
 import tailwin from "../../assets/tailwind.svg";
-import postgresql from "../../assets/postgresql.svg";
+import postgresql from "../../assets/icons8-postgresql-55.png";
 import node from "../../assets/node.svg";
 import react from "../../assets/react.svg";
 import redux from "../../assets/redux.svg";
 import mongo from "../../assets/mongo.svg"
+import firebase from '../../assets/firebase.png'
 import arrow from "../../assets/arrow.svg";
 import code from "../../assets/code.svg";
 import desing from "../../assets/desing.svg";
@@ -30,6 +31,11 @@ const Tecnologies = [
   },
 
   {
+    tecno: tailwin,
+    name: "Tailwind",
+  },
+
+  {
     tecno: javascript,
     name: "JavaScript",
   },
@@ -37,11 +43,6 @@ const Tecnologies = [
   {
     tecno: typescrip,
     name: "Typescript",
-  },
-
-  {
-    tecno: tailwin,
-    name: "Tailwind",
   },
 
   {
@@ -65,6 +66,10 @@ const Tecnologies = [
   {
     tecno: node,
     name: "Node",
+  },
+  {
+    tecno: firebase,
+    name: "Firebase",
   },
   {
     tecno: mongo,
@@ -96,7 +101,7 @@ const Services = () => {
         </article>
         <article className={`${styles.cards}`}>
           <div className={`${styles.card} ${styles.blue}`}> <img className="w-10" src={code} alt="" /> <span>Desarrollo de soluciones específicas para sus aplicaciones web modernas.</span></div>
-          <div className={`${styles.card} ${styles.blue}`}> <img className="w-10" src={web} alt="" /> <span>Proyectos tecnológicos a medida adaptados por expertos a sus necesidades específicas.</span></div>
+          <div className={`${styles.card} ${styles.blue}`}> <img className="w-10" src={web} alt="" /> <span>Proyectos tecnológicos a medida adaptados sus necesidades específicas.</span></div>
           <div className={`${styles.card} ${styles.blue}`}> <img className="w-10" src={desing} alt="" /> <span>Garantizar un diseño adaptable para disfrutar de una experiencia fluida en todos los dispositivos.</span></div>
         </article>
       </div>

@@ -1,4 +1,5 @@
 import nifytigo from "./assets/nifytigo.png";
+import cteen from './assets/cteenuruguay.png'
 import portafolios2 from "./assets/portafolios2.0.png"
 import countries from "./assets/countries.png";
 import miPortafolios from "./assets/miPortafolio.png"
@@ -14,9 +15,20 @@ import tailwind from "./assets/tailwind.svg";
 
 
 
+
 const cards = [
   {
     id: 1,
+    name: "Cteen Uruguay",
+    image: [cteen],
+    tecno: [react, css, tailwind],
+    descrip:
+      ".",
+    url: "https://cteenuy.org/",
+    urlGithub: "https://github.com/talischatz/cteen-project",
+  },
+  {
+    id: 2,
     name: "NifytiGo",
     image: [nifytigo],
     tecno: [react, css, tailwind],
@@ -27,7 +39,7 @@ const cards = [
   },
 
   {
-    id: 2,
+    id: 3,
     name: "Countries CRUD",
     image: [countries],
     tecno: [html, css, js],
@@ -36,7 +48,7 @@ const cards = [
     urlGithub: "https://github.com/BrianGelvez/countries",
   },
   {
-    id: 3,
+    id: 4,
     name: "Videogames App",
     image: [videogames],
     tecno: [react, tailwind, css],
@@ -45,9 +57,9 @@ const cards = [
     urlGithub: "https://github.com/BrianGelvez/videogames",
   },
 
-  
+
   {
-    id: 4,
+    id: 5,
     name: "Portafolios 1.0",
     image: [miPortafolios],
     tecno: [html, css, js],
@@ -58,7 +70,7 @@ const cards = [
   },
 
   {
-    id: 5,
+    id: 6,
     name: "Portafolios 2.0",
     image: [portafolios2],
     tecno: [react, tailwind, css],
@@ -68,7 +80,7 @@ const cards = [
   },
 
   {
-    id: 6,
+    id: 7,
     name: "Rick And Morty",
     image: [rickandmorty],
     tecno: [react, tailwind, css],
