@@ -23,12 +23,12 @@ const Home: React.FC = () => {
   return (
     <section className={styles.home}>
       <article className={`${styles.full}`}>
-        <h2 className="font-bold">sofwore Developer</h2>
+        <h2 className="font-bold">Software Developer</h2>
         <p >
           Programador con enfoque en desarrollo de software Full-Stack.
         </p>
         <br />
-        <span className="text-primary-color ">From:BrianGelvez</span>
+        <span className="text-primary-color ">From: BrianGelvez</span>
         <div className={`flex gap-3 ${isResponsive ? 'justify-center items-center' : ''}`}>
           <span className="flex justify-center items-center gap-1">
             <img className="w-5" src={message} alt="" />
