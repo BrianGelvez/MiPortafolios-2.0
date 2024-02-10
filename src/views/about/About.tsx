@@ -21,24 +21,27 @@ const About: React.FC<AboutProps> = ({ lightMode }) => {
       </span>
       <div className={styles.aboutMe}>
         <article className={styles.me}>
-          <img
-            className={`${styles.img} z-10 m-auto`}
-            src={brian}
-            alt=""
-          />
+          <img className={`${styles.img} z-10 m-auto`} src={brian} alt="" />
           <p>
-          ¡Hola! Mi nombre es Brian Leonel Gelvez y soy un apasionado de la tecnología, los deportes y la música. Soy ex soldado Argentino, donde fui reconocido
-          como mejor soldado de la compañia durante dos años consecutivos, preste servicio en la Compañia de Comandos 602, ubicada en el regimiento de infanteria paracaidista 2, en la ciudad de Cordoba.
-          En los últimos dos años, he estado inmerso en el mundo de la programación, explorando y creando proyectos de forma autodidacta. Mi pasión por la tecnología me llevó a unirme
-          a la academia 'SoyHenry', donde adquirí conocimientos sólidos y me gradué con éxito a mediado de 2023. Durante mi tiempo en la academia, he desarrollado habilidades en desarrollo web, 
-          diseño de aplicaciones y solución de problemas complejos.
-          <br />
-          <br />
-          Gracias por visitar mi portafolio😊.
-          <br />
-          ¡Espero poder colaborar en futuros proyectos emocionantes y desafiantes en el mundo de la tecnología!
-
-
+            ¡Hola! Mi nombre es Brian Leonel Gelvez y soy un apasionado de la
+            tecnología, los deportes y la música. Soy ex soldado Argentino,
+            donde fui reconocido como mejor soldado de la compañia durante dos
+            años consecutivos, preste servicio en la Compañia de Comandos 602,
+            ubicada en el regimiento de infanteria paracaidista 2, en la ciudad
+            de Cordoba. En los últimos dos años, he estado inmerso en el mundo
+            de la programación, explorando y creando proyectos de forma
+            autodidacta. Actualmente, me encuentro trabajando como desarrollador
+            frontend en una startup brasileña. Mi pasión por la tecnología me
+            llevó a unirme a la academia 'SoyHenry', donde adquirí conocimientos
+            sólidos y me gradué con éxito a mediados de 2023. Durante mi tiempo
+            en la academia, he desarrollado habilidades en desarrollo web,
+            diseño de aplicaciones y solución de problemas complejos.
+            <br />
+            <br />
+            Gracias por visitar mi portafolio😊.
+            <br />
+            ¡Espero poder colaborar en futuros proyectos emocionantes y
+            desafiantes en el mundo de la tecnología!
           </p>
           <span className="text-primary-color">From:BrianGelvez</span>
           <div className="flex gap-3">
@@ -61,12 +64,16 @@ const About: React.FC<AboutProps> = ({ lightMode }) => {
         <article className={styles.cards}>
           <div className={`${styles.card} ${styles.blue}`}>
             <p className={styles.tip}>Academia: Soy Henry</p>
-            <p className={styles.secondText}>JavaScript, React, Node.JS, Express, SQL</p>
+            <p className={styles.secondText}>
+              JavaScript, React, Node.JS, Express, SQL
+            </p>
           </div>
 
           <div className={`${styles.card} ${styles.blue}`}>
             <p className={styles.tip}>Autodidacta</p>
-            <p className={styles.secondText}>HTML, CSS, Tailwind, TypeScript, Next.js, MongoDB, Firebase</p>
+            <p className={styles.secondText}>
+              HTML, CSS, Tailwind, TypeScript, Next.js, MongoDB, Firebase
+            </p>
           </div>
         </article>
       </div>
