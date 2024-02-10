@@ -4,7 +4,7 @@ import arrow from "../../assets/arrow.svg";
 import pin from "../../assets/pin.svg";
 import message from "../../assets/message.svg";
 import share from "../../assets/share.svg";
-import brian from "../../assets/brian.jpeg";
+import brian from "../../assets/brian.jpg";
 import AnimationTwo from "../../components/animations/animationTwo/AnimationTwo";
 import Footer from "../../components/footer/Footer";
 
