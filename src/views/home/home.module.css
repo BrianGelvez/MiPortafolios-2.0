@@ -23,12 +23,13 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 15px;
+    gap: 10px;
 }
 
 .home  h2{
     color: rgb(0, 145, 255);
-    font-size: 44px;
+    font-size: 37px;
+    margin-bottom: 15px
 }
 
 .home .full p{

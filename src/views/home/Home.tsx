@@ -22,7 +22,7 @@ const Home: React.FC = () => {
 
   return (
     <section className={styles.home}>
-      <article className={`${styles.full}`}>
+      <article className="pt-20 flex flex-col">
         <h2 className="font-bold">Software Developer</h2>
         <p >
           Programador con enfoque en desarrollo de software Full-Stack.

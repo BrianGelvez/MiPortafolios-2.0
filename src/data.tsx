@@ -1,5 +1,6 @@
 import nifytigo from "./assets/nifytigo.png";
 import cteen from './assets/cteenuruguay.png'
+import leiaut from './assets/leiaut.png'
 import portafolios2 from "./assets/portafolios2.0.png"
 import countries from "./assets/countries.png";
 import miPortafolios from "./assets/miPortafolio.png"
@@ -12,11 +13,24 @@ import react from "./assets/react.svg";
 import tailwind from "./assets/tailwind.svg";
 
 
-
+// ? pregunta
+// !deprecado
+// TODO: hacer
+// *importante
 
 
 
 const cards = [
+  {
+    id: 0,
+    name: "Leiaut Academy",
+    image: [leiaut],
+    tecno: [react, css, tailwind],
+    descrip:
+      ".",
+    url: "https://leiaut.mcf.house/",
+    urlGithub: "https://github.com/BrianGelvez",
+  },
   {
     id: 1,
     name: "Cteen Uruguay",
@@ -49,7 +63,7 @@ const cards = [
   },
   {
     id: 4,
-    name: "Videogames App",
+    name: "Videogames CRUD",
     image: [videogames],
     tecno: [react, tailwind, css],
     descrip: "Practice with React, State Management, Filters and Dark Mode.",
@@ -57,9 +71,18 @@ const cards = [
     urlGithub: "https://github.com/BrianGelvez/videogames",
   },
 
-
   {
     id: 5,
+    name: "Portafolios 2.0",
+    image: [portafolios2],
+    tecno: [react, tailwind, css],
+    descrip: "Practice with React, State Management, Filters and Dark Mode.",
+    url: "#",
+    urlGithub: "https://github.com/BrianGelvez/MiPortafolios-2.0",
+  },
+
+  {
+    id: 6,
     name: "Portafolios 1.0",
     image: [miPortafolios],
     tecno: [html, css, js],
@@ -67,16 +90,6 @@ const cards = [
       "my first portfolio using html tailwind and some javascript",
     url: "https://mi-portafolios.vercel.app/",
     urlGithub: "https://github.com/BrianGelvez/miPortafolios",
-  },
-
-  {
-    id: 6,
-    name: "Portafolios 2.0",
-    image: [portafolios2],
-    tecno: [react, tailwind, css],
-    descrip: "Practice with React, State Management, Filters and Dark Mode.",
-    url: "#",
-    urlGithub: "https://github.com/BrianGelvez/MiPortafolios-2.0",
   },
 
   {

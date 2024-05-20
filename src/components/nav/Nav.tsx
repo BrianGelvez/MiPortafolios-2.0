@@ -22,11 +22,11 @@ const Nav: React.FC<NavProps> = ({ lightMode, setLightMode, scrollToSection }) =
     <header className={`${styles.menu} ${lightMode === true ? styles.white : styles.dark} `}>
       <nav className={styles.nav}>
         <h1 className={styles.logo}>BG</h1>
-        <div >
+        {/* <div >
           <p className={`${styles.mobile}`}>Visitas 👇</p>
           <a href="https://www.hitwebcounter.com" className={`${styles.mobile} `}>
             <img src="https://hitwebcounter.com/counter/counter.php?page=8885080&style=0010&nbdigits=4&type=page&initCount=0" title="Counter Widget" className="w-20" alt=""/></a>
-        </div>
+        </div> */}
         <div className="contador" >
           <a href="https://www.hitwebcounter.com">
             <img src="https://hitwebcounter.com/counter/counter.php?page=8885080&style=0010&nbdigits=4&type=page&initCount=0" title="Counter Widget" className="w-20" alt=""/></a>
